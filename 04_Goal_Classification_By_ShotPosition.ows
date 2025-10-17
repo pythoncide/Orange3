@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="축구 슛 기록 CSV" position="(65.0, 13.0)" />
+		<node id="1" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info" position="(189.0, -219.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(187.0, -80.0)" />
+		<node id="3" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(186.0, -147.0)" />
+		<node id="4" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="x, y, 슛 결과 추출" position="(293.0, -7.0)" />
+		<node id="5" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(367.0, -92.0)" />
+		<node id="6" name="Continuize" qualified_name="Orange.widgets.data.owcontinuize.OWContinuize" project_name="Orange3" version="" title="Continuize" position="(432.0, 4.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(504.0, -92.0)" />
+		<node id="8" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="슛 결과 -&gt; 슛 성공 추출" position="(567.0, 12.0)" />
+		<node id="9" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (3)" position="(689.0, -106.0)" />
+		<node id="10" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(650.0, -161.0)" />
+		<node id="11" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (4)" position="(749.0, -163.0)" />
+		<node id="12" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (1)" position="(846.0, -165.0)" />
+		<node id="13" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN" position="(683.0, 137.0)" />
+		<node id="14" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(691.0, 224.0)" />
+		<node id="15" name="Naive Bayes" qualified_name="Orange.widgets.model.ownaivebayes.OWNaiveBayes" project_name="Orange3" version="" title="Naive Bayes" position="(720.0, 504.0)" />
+		<node id="16" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(693.0, 321.0)" />
+		<node id="17" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(707.0, 417.0)" />
+		<node id="18" name="Edit Domain" qualified_name="Orange.widgets.data.oweditdomain.OWEditDomain" project_name="Orange3" version="" title="Edit Domain" position="(670.0, -43.0)" />
+		<node id="19" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score (1)" position="(826.0, -52.0)" />
+		<node id="20" name="ROC Analysis" qualified_name="Orange.widgets.evaluate.owrocanalysis.OWROCAnalysis" project_name="Orange3" version="" title="ROC Analysis" position="(988.0, 63.0)" />
+		<node id="21" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (5)" position="(958.0, 202.0)" />
+		<node id="22" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(359.0, -177.0)" />
+		<node id="23" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (2)" position="(497.0, -164.0)" />
+		<node id="24" name="Rank" qualified_name="Orange.widgets.data.owrank.OWRank" project_name="Orange3" version="" title="Rank" position="(369.0, 264.0)" />
+		<node id="25" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(227.0, 127.0)" />
+		<node id="26" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(994.0, -33.0)" />
+		<node id="27" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr = 3" position="(1111.0, 203.0)" />
+		<node id="28" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (6)" position="(1269.0, 202.0)" />
+		<node id="29" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (7)" position="(955.0, 323.0)" />
+		<node id="30" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr 최대값 그래프" position="(1111.0, 323.0)" />
+		<node id="31" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (3)" position="(1278.0, 325.0)" />
+		<node id="32" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (8)" position="(966.0, 418.0)" />
+		<node id="33" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr = 2.5" position="(1119.0, 420.0)" />
+		<node id="34" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (9)" position="(1277.0, 418.0)" />
+		<node id="35" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (10)" position="(966.0, 538.0)" />
+		<node id="36" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr = 2" position="(1119.0, 539.0)" />
+		<node id="37" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (11)" position="(1277.0, 538.0)" />
+		<node id="38" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="모델별 “최대 F1이 되는 임계값(THR)" position="(1119.0, 659.0)" />
+		<node id="39" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (12)" position="(966.0, 658.0)" />
+		<node id="40" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (13)" position="(1277.0, 658.0)" />
+		<node id="41" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (14)" position="(970.0, 773.0)" />
+		<node id="42" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr = 2.2" position="(1123.0, 774.0)" />
+		<node id="43" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (15)" position="(1281.0, 773.0)" />
+		<node id="44" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions" position="(804.0, -105.0)" />
+		<node id="45" name="Stacking" qualified_name="Orange.widgets.model.owstack.OWStackedLearner" project_name="Orange3" version="" title="Stacking" position="(828.0, 240.0)" />
+		<node id="46" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (16)" position="(1068.0, -116.0)" />
+		<node id="47" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="thr 비교" position="(1192.0, -116.0)" />
+		<node id="48" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (17)" position="(1332.0, -129.0)" />
+		<node id="49" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (4)" position="(154.0, 228.0)" />
+		<node id="50" name="Data Info" qualified_name="Orange.widgets.data.owdatainfo.OWDataInfo" project_name="Orange3" version="" title="Data Info (1)" position="(357.0, -241.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="4" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="4" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="6" source_node_id="6" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="7" source_node_id="6" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="8" source_node_id="8" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="9" source_node_id="8" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="10" source_node_id="10" sink_node_id="11" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
+		<link id="11" source_node_id="8" sink_node_id="18" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="12" source_node_id="18" sink_node_id="19" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
+		<link id="13" source_node_id="13" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="14" source_node_id="14" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="15" source_node_id="17" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="16" source_node_id="15" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="17" source_node_id="19" sink_node_id="20" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
+		<link id="18" source_node_id="11" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="19" source_node_id="19" sink_node_id="21" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="20" source_node_id="18" sink_node_id="14" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="21" source_node_id="16" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="22" source_node_id="4" sink_node_id="22" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="23" source_node_id="6" sink_node_id="23" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="24" source_node_id="0" sink_node_id="25" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="25" source_node_id="25" sink_node_id="24" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="26" source_node_id="19" sink_node_id="26" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
+		<link id="27" source_node_id="21" sink_node_id="27" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="28" source_node_id="27" sink_node_id="28" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="29" source_node_id="19" sink_node_id="29" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="30" source_node_id="29" sink_node_id="30" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="31" source_node_id="30" sink_node_id="31" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="32" source_node_id="32" sink_node_id="33" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="33" source_node_id="33" sink_node_id="34" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="34" source_node_id="19" sink_node_id="32" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="35" source_node_id="35" sink_node_id="36" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="36" source_node_id="36" sink_node_id="37" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="37" source_node_id="19" sink_node_id="35" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="38" source_node_id="19" sink_node_id="39" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="39" source_node_id="39" sink_node_id="38" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="40" source_node_id="38" sink_node_id="40" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="41" source_node_id="41" sink_node_id="42" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="42" source_node_id="42" sink_node_id="43" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="43" source_node_id="19" sink_node_id="41" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="44" source_node_id="9" sink_node_id="44" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="45" source_node_id="18" sink_node_id="13" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="46" source_node_id="18" sink_node_id="16" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="47" source_node_id="18" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="48" source_node_id="18" sink_node_id="15" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="49" source_node_id="15" sink_node_id="45" source_channel="Learner" sink_channel="Learners" enabled="true" source_channel_id="learner" sink_channel_id="learners" />
+		<link id="50" source_node_id="17" sink_node_id="45" source_channel="Learner" sink_channel="Learners" enabled="true" source_channel_id="learner" sink_channel_id="learners" />
+		<link id="51" source_node_id="16" sink_node_id="45" source_channel="Learner" sink_channel="Learners" enabled="true" source_channel_id="learner" sink_channel_id="learners" />
+		<link id="52" source_node_id="14" sink_node_id="45" source_channel="Learner" sink_channel="Learners" enabled="true" source_channel_id="learner" sink_channel_id="learners" />
+		<link id="53" source_node_id="13" sink_node_id="45" source_channel="Learner" sink_channel="Learners" enabled="true" source_channel_id="learner" sink_channel_id="learners" />
+		<link id="54" source_node_id="45" sink_node_id="19" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="55" source_node_id="19" sink_node_id="46" source_channel="Predictions" sink_channel="Data" enabled="true" source_channel_id="predictions" sink_channel_id="data" />
+		<link id="56" source_node_id="46" sink_node_id="47" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+		<link id="57" source_node_id="47" sink_node_id="48" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="58" source_node_id="0" sink_node_id="49" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="59" source_node_id="4" sink_node_id="50" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': '/home/intel/Downloads/shots.csv (1)/shots.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 11, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': '/home/intel/Downloads/appearances.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 19, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': '/home/intel/Downloads/shots.csv (1)', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xf1\x00\x00\x00\x82\x00\x00\x06%\x00\x00\x01\xdb\x00\x00\x04\xf1\x00\x00\x00\x82\x00\x00\x06%\x00\x00\x01\xdb\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04\xf1\x00\x00\x00\x82\x00\x00\x06%\x00\x00\x01\xdb', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x1b\x00\x00\x00\xca\x00\x00\x04#\x00\x00\x01\xe0\x00\x00\x03\x1b\x00\x00\x00\xec\x00\x00\x04#\x00\x00\x01\xe0\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x1b\x00\x00\x00\xec\x00\x00\x04#\x00\x00\x01\xe0', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf2\x00\x00\x00\x00\x00\x00\x06\x91\x00\x00\x03\x05\x00\x00\x00\xf2\x00\x00\x00"\x00\x00\x06\x91\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xf2\x00\x00\x00"\x00\x00\x06\x91\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [0], 'columns': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="3" format="pickle">gASVPAMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
+ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAD5AAAA3wAABRIAAAL0AAAA+QAAAQEAAAUSAAAC
+9AAAAAAAAAAAB4AAAAD5AAABAQAABRIAAAL0lIwHc29ydGluZ5RLAIwDc2lwlIwOX3VucGlja2xl
+X2VudW2Uk5SMDFB5UXQ1LlF0Q29yZZSMCVNvcnRPcmRlcpRLAIeUUpSGlIwLX192ZXJzaW9uX1+U
+SwKMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0
+lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAljb2xvcl92YXKUjApzaG90UmVzdWx0lEtlhpSMDXNlbGVj
+dGVkX3ZhcnOUXZSMCXBvc2l0aW9uWJRLZoaUYUr9////hpRoDksCdYwKYXR0cmlidXRlc5R9lCiM
+BmdhbWVJRJRLAowJc2hvb3RlcklElEsCjAphc3Npc3RlcklElEsCjAZtaW51dGWUSwKMCXNpdHVh
+dGlvbpRLAYwKbGFzdEFjdGlvbpRLAYwIc2hvdFR5cGWUSwFoGUsBjAV4R29hbJRLAmgdSwKMCXBv
+c2l0aW9uWZRLAnWMBW1ldGFzlH2UdWJoEymBlH2UKGgWfZQoaBhOSv7///+GlGgbXZRoDksCdWgg
+fZQojAZnYW1lSUSUSwKMCHBsYXllcklElEsCjAVnb2Fsc5RLAowIb3duR29hbHOUSwKMBXNob3Rz
+lEsCjAZ4R29hbHOUSwKMC3hHb2Fsc0NoYWlulEsCjA14R29hbHNCdWlsZHVwlEsCjAdhc3Npc3Rz
+lEsCjAlrZXlQYXNzZXOUSwKMCHhBc3Npc3RzlEsCjAhwb3NpdGlvbpRLAYwNcG9zaXRpb25PcmRl
+cpRLAowKeWVsbG93Q2FyZJRLAYwHcmVkQ2FyZJRLAYwEdGltZZRLAowMc3Vic3RpdHV0ZUlulEsC
+jA1zdWJzdGl0dXRlT3V0lEsCjAhsZWFndWVJRJRLAnVoK32UdWJldS4=
+</properties>
+		<properties node_id="4" format="pickle">gASVlQYAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABMwAAAAA
+AAAHIwAAAnkAAATMAAAAIgAAByMAAAJ5AAAAAAAAAAAHgAAABMwAAAAiAAAHIwAAAnmUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMCmFzc2lzdGVySUSUSwKGlIwJYXZhaWxhYmxllEsAhpSMCXNob290
+ZXJJRJRLAoaUaBVLAYaUjAZnYW1lSUSUSwKGlGgVSwKGlIwGbWludXRllEsChpRoFUsDhpSMCXNp
+dHVhdGlvbpRLAYaUaBVLBIaUjApsYXN0QWN0aW9ulEsBhpRoFUsFhpSMCHNob3RUeXBllEsBhpRo
+FUsGhpSMBXhHb2FslEsChpRoFUsHhpSMCXBvc2l0aW9uWJRLAoaUjAlhdHRyaWJ1dGWUSwCGlIwJ
+cG9zaXRpb25ZlEsChpRoLksBhpSMCnNob3RSZXN1bHSUSwGGlIwFY2xhc3OUSwCGlHVK/v///4aU
+aAdLAXWMCmF0dHJpYnV0ZXOUfZQojAZnYW1lSUSUSwKMCXNob290ZXJJRJRLAowKYXNzaXN0ZXJJ
+RJRLAowGbWludXRllEsCjAlzaXR1YXRpb26USwGMCmxhc3RBY3Rpb26USwGMCHNob3RUeXBllEsB
+jApzaG90UmVzdWx0lEsBjAV4R29hbJRLAowJcG9zaXRpb25YlEsCjAlwb3NpdGlvblmUSwJ1jAVt
+ZXRhc5R9lHViaAwpgZR9lChoD32UKIwRZG9tYWluX3JvbGVfaGludHOUfZQojAZnYW1lSUSUSwKG
+lIwJYXR0cmlidXRllEsAhpSMCHBsYXllcklElEsChpRoTksBhpSMBWdvYWxzlEsChpRoTksChpSM
+CG93bkdvYWxzlEsChpRoTksDhpSMBXNob3RzlEsChpRoTksEhpSMBnhHb2Fsc5RLAoaUaE5LBYaU
+jAt4R29hbHNDaGFpbpRLAoaUaE5LBoaUjA14R29hbHNCdWlsZHVwlEsChpRoTksHhpSMB2Fzc2lz
+dHOUSwKGlGhOSwiGlIwJa2V5UGFzc2VzlEsChpRoTksJhpSMCHhBc3Npc3RzlEsChpRoTksKhpSM
+CHBvc2l0aW9ulEsBhpRoTksLhpSMDXBvc2l0aW9uT3JkZXKUSwKGlGhOSwyGlIwKeWVsbG93Q2Fy
+ZJRLAYaUaE5LDYaUjAdyZWRDYXJklEsBhpRoTksOhpSMBHRpbWWUSwKGlGhOSw+GlIwMc3Vic3Rp
+dHV0ZUlulEsChpRoTksQhpSMDXN1YnN0aXR1dGVPdXSUSwKGlGhOSxGGlIwIbGVhZ3VlSUSUSwKG
+lGhOSxKGlIwIU2VsZWN0ZWSUSwGGlIwFY2xhc3OUSwCGlHVK/v///4aUaAdLAXVoOH2UKGhMSwJo
+UEsCaFNLAmhWSwJoWUsCaFxLAmhfSwJoYksCaGVLAmhoSwJoa0sCaG5LAWhxSwJodEsBaHdLAWh6
+SwJofUsCaIBLAmiDSwJohksBdWhFfZR1YmgMKYGUfZQoaA99lChoSn2UKGhMSwKGlIwJYXZhaWxh
+YmxllEsAhpRoUEsChpRokksBhpRoU0sChpRokksChpRoVksChpRokksDhpRoWUsChpRokksEhpRo
+XEsChpRokksFhpRoX0sChpRokksGhpRoYksChpRokksHhpRoZUsChpRokksIhpRoaEsChpRokksJ
+hpRoa0sChpRokksKhpRobksBhpRokksLhpRocUsChpRokksMhpRodEsBhpRokksNhpRod0sBhpRo
+kksOhpRoeksChpRokksPhpRofUsChpRokksQhpRogEsChpRokksRhpRog0sChpRokksShpR1Sv7/
+//+GlGgHSwF1aDh9lChoTEsCaFBLAmhTSwJoVksCaFlLAmhcSwJoX0sCaGJLAmhlSwJoaEsCaGtL
+AmhuSwFocUsCaHRLAWh3SwFoeksCaH1LAmiASwJog0sCdWhFfZR1YmV1Lg==
+</properties>
+		<properties node_id="5" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf2\x00\x00\x00\x00\x00\x00\x06\x91\x00\x00\x03\x05\x00\x00\x00\xf2\x00\x00\x00"\x00\x00\x06\x91\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xf2\x00\x00\x00"\x00\x00\x06\x91\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [0, 1, 2], 'columns': [0, 1, 2]}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="6" format="literal">{'autosend': True, 'cont_var_hints': {'': 0}, 'controlAreaVisible': True, 'disc_var_hints': {'': 2, 'shotResult': 1}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02|\x00\x00\x00\x1d\x00\x00\x05&gt;\x00\x00\x02\xb8\x00\x00\x02|\x00\x00\x00?\x00\x00\x05&gt;\x00\x00\x02\xb8\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02|\x00\x00\x00?\x00\x00\x05&gt;\x00\x00\x02\xb8', '__version__': 3}</properties>
+		<properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xe0\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x03\x05\x00\x00\x01\xe0\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\xe0\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [0], 'columns': [0, 1, 2, 3, 4, 5, 6, 7]}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="8" format="pickle">gASVagcAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABMwAAAAA
+AAAHIwAAAnkAAATMAAAAIgAAByMAAAJ5AAAAAAAAAAAHgAAABMwAAAAiAAAHIwAAAnmUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMFnNob3RSZXN1bHQ9QmxvY2tlZFNob3SUSwKGlIwJYXZhaWxhYmxl
+lEsAhpSMFnNob3RSZXN1bHQ9TWlzc2VkU2hvdHOUSwKGlGgVSwGGlIwSc2hvdFJlc3VsdD1Pd25H
+b2FslEsChpRoFUsChpSMFHNob3RSZXN1bHQ9U2F2ZWRTaG90lEsChpRoFUsDhpSMFXNob3RSZXN1
+bHQ9U2hvdE9uUG9zdJRLAoaUaBVLBIaUjAlwb3NpdGlvbliUSwKGlIwJYXR0cmlidXRllEsAhpSM
+CXBvc2l0aW9uWZRLAoaUaCVLAYaUjA9zaG90UmVzdWx0PUdvYWyUSwKGlIwFY2xhc3OUSwCGlHVK
+/v///4aUaAdLAXWMCmF0dHJpYnV0ZXOUfZQoaCNLAmgnSwJoE0sCaCpLAmgXSwJoGksCaB1LAmgg
+SwJ1jAVtZXRhc5R9lHViaAwpgZR9lChoD32UKIwRZG9tYWluX3JvbGVfaGludHOUfZQojAphc3Np
+c3RlcklElEsChpSMCWF2YWlsYWJsZZRLAIaUjAlzaG9vdGVySUSUSwKGlGg6SwGGlIwGZ2FtZUlE
+lEsChpRoOksChpSMBm1pbnV0ZZRLAoaUaDpLA4aUjAlzaXR1YXRpb26USwGGlGg6SwSGlIwKbGFz
+dEFjdGlvbpRLAYaUaDpLBYaUjAhzaG90VHlwZZRLAYaUaDpLBoaUjAV4R29hbJRLAoaUaDpLB4aU
+jAlwb3NpdGlvbliUSwKGlIwJYXR0cmlidXRllEsAhpSMCXBvc2l0aW9uWZRLAoaUaFNLAYaUjApz
+aG90UmVzdWx0lEsBhpSMBWNsYXNzlEsAhpR1Sv7///+GlGgHSwF1aC99lChoP0sCaDxLAmg4SwJo
+QksCaEVLAWhISwFoS0sBaFhLAWhOSwJoUUsCaFVLAnVoMX2UdWJoDCmBlH2UKGgPfZQoaDZ9lCiM
+BmdhbWVJRJRLAoaUaFNLAIaUjAhwbGF5ZXJJRJRLAoaUaFNLAYaUjAVnb2Fsc5RLAoaUaFNLAoaU
+jAhvd25Hb2Fsc5RLAoaUaFNLA4aUjAVzaG90c5RLAoaUaFNLBIaUjAZ4R29hbHOUSwKGlGhTSwWG
+lIwLeEdvYWxzQ2hhaW6USwKGlGhTSwaGlIwNeEdvYWxzQnVpbGR1cJRLAoaUaFNLB4aUjAdhc3Np
+c3RzlEsChpRoU0sIhpSMCWtleVBhc3Nlc5RLAoaUaFNLCYaUjAh4QXNzaXN0c5RLAoaUaFNLCoaU
+jAhwb3NpdGlvbpRLAYaUaFNLC4aUjA1wb3NpdGlvbk9yZGVylEsChpRoU0sMhpSMCnllbGxvd0Nh
+cmSUSwGGlGhTSw2GlIwHcmVkQ2FyZJRLAYaUaFNLDoaUjAR0aW1llEsChpRoU0sPhpSMDHN1YnN0
+aXR1dGVJbpRLAoaUaFNLEIaUjA1zdWJzdGl0dXRlT3V0lEsChpRoU0sRhpSMCGxlYWd1ZUlElEsC
+hpRoU0sShpSMCFNlbGVjdGVklEsBhpRoWksAhpR1Sv7///+GlGgHSwF1aC99lChoY0sCaGZLAmhp
+SwJobEsCaG9LAmhySwJodUsCaHhLAmh7SwJofksCaIFLAmiESwFoh0sCaIpLAWiNSwFokEsCaJNL
+AmiWSwJomUsCaJxLAXVoMX2UdWJoDCmBlH2UKGgPfZQoaDZ9lChoY0sChpRoOksAhpRoZksChpRo
+OksBhpRoaUsChpRoOksChpRobEsChpRoOksDhpRob0sChpRoOksEhpRocksChpRoOksFhpRodUsC
+hpRoOksGhpRoeEsChpRoOksHhpRoe0sChpRoOksIhpRofksChpRoOksJhpRogUsChpRoOksKhpRo
+hEsBhpRoOksLhpRoh0sChpRoOksMhpRoiksBhpRoOksNhpRojUsBhpRoOksOhpRokEsChpRoOksP
+hpRok0sChpRoOksQhpRolksChpRoOksRhpRomUsChpRoOksShpR1Sv7///+GlGgHSwF1aC99lCho
+Y0sCaGZLAmhpSwJobEsCaG9LAmhySwJodUsCaHhLAmh7SwJofksCaIFLAmiESwFoh0sCaIpLAWiN
+SwFokEsCaJNLAmiWSwJomUsCdWgxfZR1YmV1Lg==
+</properties>
+		<properties node_id="9" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xe0\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x03\x05\x00\x00\x01\xe0\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\xe0\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [('positionX', -1)], '__version__': 1}</properties>
+		<properties node_id="10" format="pickle">gASVkQEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAACigAAAAAAAAThAAABsQAAAooAAAAiAAAE4QAAAbEAAAAAAAAAAAeAAAACigAAACIA
+AAThAAABsZSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQojA9zaG90UmVzdWx0PUdvYWyUSwJLAF2URz/wAAAAAAAAYXSU
+YWgISwJ1jAphdHRyaWJ1dGVzlH2UKIwJcG9zaXRpb25YlEsCjAlwb3NpdGlvblmUSwJoFEsCdYwF
+bWV0YXOUfZR1YmF1Lg==
+</properties>
+		<properties node_id="11" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xe0\x00\x00\x00x\x00\x00\x07\x7f\x00\x00\x03[\x00\x00\x01\xe0\x00\x00\x00x\x00\x00\x07\x7f\x00\x00\x03[\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\xe0\x00\x00\x00x\x00\x00\x07\x7f\x00\x00\x03[', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="12" format="pickle">gASV+AMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABfwAAAAAAAAXkAAAC5QAAAX8AAAAiAAAF5AAAAuUAAAAAAAAA
+AAeAAAABfwAAACIAAAXkAAAC5ZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiIwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSIjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIh1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjA9zaG90UmVzdWx0
+PUdvYWyUS2aGlIwKYXR0cl9sYWJlbJROSv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0
+cl9zaXpllE5K/v///4aUjAZhdHRyX3iUjAlwb3NpdGlvbliUS2aGlIwMYXR0cl94X2xvd2VylE5K
+/v///4aUjAxhdHRyX3hfdXBwZXKUTkr+////hpSMBmF0dHJfeZSMCXBvc2l0aW9uWZRLZoaUjAxh
+dHRyX3lfbG93ZXKUTkr+////hpSMDGF0dHJfeV91cHBlcpROSv7///+GlGgMfZRoGUsFdYwKYXR0
+cmlidXRlc5R9lCiMCXBvc2l0aW9uWJRLAowJcG9zaXRpb25ZlEsCjA9zaG90UmVzdWx0PUdvYWyU
+SwJ1jAVtZXRhc5R9lIwIU2VsZWN0ZWSUSwFzdWJoHimBlH2UKGghfZQoaCNoJEtmhpRoJk5K/v//
+/4aUaChOSv7///+GlGgqTkr+////hpRoLGgtS2aGlGgvTkr+////hpRoMU5K/v///4aUaDNoNEtm
+hpRoNk5K/v///4aUaDhOSv7///+GlGgMfZRoGUsFdWg7fZQoaD1LAmg+SwJoP0sCdWhAfZR1YmV1
+Lg==
+</properties>
+		<properties node_id="13" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'metric_index': 0, 'n_neighbors': 100, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x96\x00\x00\x00\xe7\x00\x00\x04\x82\x00\x00\x02!\x00\x00\x03\x96\x00\x00\x01\t\x00\x00\x04\x82\x00\x00\x02!\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x96\x00\x00\x01\t\x00\x00\x04\x82\x00\x00\x02!', 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="14" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 8, 'min_internal': 5, 'min_leaf': 3, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xca\x00\x00\x00\xf5\x00\x00\x04\x1c\x00\x00\x02\x90\x00\x00\x02\xca\x00\x00\x01\x17\x00\x00\x04\x1c\x00\x00\x02\x90\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xca\x00\x00\x01\x17\x00\x00\x04\x1c\x00\x00\x02\x90', 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="15" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03X\x00\x00\x01W\x00\x00\x04\x14\x00\x00\x01\xfb\x00\x00\x03X\x00\x00\x01y\x00\x00\x04\x14\x00\x00\x01\xfb\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03X\x00\x00\x01y\x00\x00\x04\x14\x00\x00\x01\xfb', '__version__': 1}</properties>
+		<properties node_id="16" format="literal">{'activation_index': 3, 'alpha_index': 10, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100', 'learner_name': '', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02~\x00\x00\x01[\x00\x00\x03\xb4\x00\x00\x02\xb5\x00\x00\x02~\x00\x00\x01[\x00\x00\x03\xb4\x00\x00\x02\xb5\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02~\x00\x00\x01[\x00\x00\x03\xb4\x00\x00\x02\xb5', 'solver_index': 2, '__version__': 2}</properties>
+		<properties node_id="17" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04]\x00\x00\x01r\x00\x00\x05E\x00\x00\x02\xd5\x00\x00\x04]\x00\x00\x01\x94\x00\x00\x05E\x00\x00\x02\xd5\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x04]\x00\x00\x01\x94\x00\x00\x05E\x00\x00\x02\xd5', '__version__': 2}</properties>
+		<properties node_id="18" format="pickle">gASVRwEAAAAAAAB9lCiMFF9kb21haW5fY2hhbmdlX2hpbnRzlH2UjARSZWFslIwPc2hvdFJlc3Vs
+dD1Hb2FslEsDjAFmlIaUKYeUhpRdlCiMDUFzQ2F0ZWdvcmljYWyUKYaUjBFDYXRlZ29yaWVzTWFw
+cGluZ5RdlCiMAzEuMJSMAzEuMJSGlIwDMC4wlIwDMC4wlIaUZYWUhpRlc4wWX21lcmdlX2RpYWxv
+Z19zZXR0aW5nc5R9lIwSY29udHJvbEFyZWFWaXNpYmxllIiMEW91dHB1dF90YWJsZV9uYW1llIwA
+lIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACbAAAAAAAAAT/AAACpwAAAmwAAAAi
+AAAE/wAAAqcAAAAAAAAAAAeAAAACbAAAACIAAAT/AAACp5SMC19fdmVyc2lvbl9flEsEdS4=
+</properties>
+		<properties node_id="19" format="pickle">gASVVQQAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsCjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+bmeUSwKMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCowTc2F2ZWRXaWRnZXRHZW9tZXRy
+eZRDQgHZ0MsAAwAAAAAD5gAAAAAAAAbeAAACFQAAA+YAAAAiAAAG3gAAAhUAAAAAAAAAAAeAAAAD
+5gAAACIAAAbeAAACFZSMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+YWJsZZR9lIwQc2hvd19zY29yZV9oaW50c5R9lCiMBk1vZGVsX5SIjAZUcmFpbl+UiYwFVGVzdF+U
+iYwCQ0GUiIwXUHJlY2lzaW9uUmVjYWxsRlN1cHBvcnSUiIwLVGFyZ2V0U2NvcmWUiIwJUHJlY2lz
+aW9ulIiMBlJlY2FsbJSIjAJGMZSIjANBVUOUiIwHTG9nTG9zc5SJjAtTcGVjaWZpY2l0eZSJjBdN
+YXR0aGV3c0NvcnJDb2VmZmljaWVudJSIjANNU0WUiIwEUk1TRZSIjANNQUWUiIwETUFQRZSIjAJS
+MpSIjAZDVlJNU0WUiYwPQ2x1c3RlcmluZ1Njb3JllIiMClNpbGhvdWV0dGWUiIwXQWRqdXN0ZWRN
+dXR1YWxJbmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlCiM
+FW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMD2Ns
+YXNzX3NlbGVjdGlvbpSMIShOb25lLCBzaG93IGF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKZRK/////4aU
+jAxmb2xkX2ZlYXR1cmWUTkr+////hpSMFWZvbGRfZmVhdHVyZV9zZWxlY3RlZJSJSv7///+GlGgN
+fZRoJ0sEdYwKYXR0cmlidXRlc5SMCXBvc2l0aW9uWJRLAoaUjAlwb3NpdGlvblmUSwKGlIaUjAVt
+ZXRhc5QpjApjbGFzc192YXJzlIwPc2hvdFJlc3VsdD1Hb2FslEsBhpSFlHViaCwpgZR9lChoL32U
+KIwPY2xhc3Nfc2VsZWN0aW9ulIwhKE5vbmUsIHNob3cgYXZlcmFnZSBvdmVyIGNsYXNzZXMplEr/
+////hpSMDGZvbGRfZmVhdHVyZZROSv7///+GlIwVZm9sZF9mZWF0dXJlX3NlbGVjdGVklIlK/v//
+/4aUjAtzY29yZV90YWJsZZR9lGgnSwR1aDmMCXBvc2l0aW9uWJRLAoaUjAlwb3NpdGlvblmUSwKG
+lIaUaD8paECMD3Nob3RSZXN1bHQ9R29hbJRLAoaUhZR1YmV1Lg==
+</properties>
+		<properties node_id="20" format="pickle">gASVQwQAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBRkaXNwbGF5X2NvbnZleF9jdXJ2
+ZZSJjBNkaXNwbGF5X2NvbnZleF9odWxslImMFWRpc3BsYXlfZGVmX3RocmVzaG9sZJSIjBFkaXNw
+bGF5X3BlcmZfbGluZZSIjAdmbl9jb3N0lE30AYwHZnBfY29zdJRN9AGMDXJvY19hdmVyYWdpbmeU
+SwCME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAi8AAAAAAAAErgAAAgEAAAIvAAAA
+IgAABK4AAAIBAAAAAAAAAAAHgAAAAi8AAAAiAAAErgAAAgGUjAx0YXJnZXRfcHJpb3KUjBZudW1w
+eS5fY29yZS5tdWx0aWFycmF5lIwGc2NhbGFylJOUjAVudW1weZSMBWR0eXBllJOUjAJmOJSJiIeU
+UpQoSwOMATyUTk5OSv////9K/////0sAdJRiQwgAAAAAAAAmQJSGlFKUjAtfX3ZlcnNpb25fX5RL
+AYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMBnZhbHVlc5R9lCiMFHNlbGVjdGVkX2NsYXNzaWZpZXJzlF2UKEsASwFLAksDSwRL
+BWWMDHRhcmdldF9pbmRleJRLAGgaSwF1jAdjbGFzc2VzlIwDMS4wlIwDMC4wlIaUjBBjbGFzc2lm
+aWVyX25hbWVzlF2UKIwDa05OlIwEVHJlZZSME0xvZ2lzdGljIFJlZ3Jlc3Npb26UjAtOYWl2ZSBC
+YXllc5SMDk5ldXJhbCBOZXR3b3JrlIwFU3RhY2uUZXViaB8pgZR9lChoIn2UKGgkXZQoSwBLAUsC
+SwNLBGVoJksAaBpLAXVoJ2gqaCtdlChoLWguaC9oMGgxZXViaB8pgZR9lChoIn2UKGgkXZQoSwBL
+AUsCSwNLBGVoJksAaBpLAXVoJ4wDMC4wlIwDMS4wlIaUaCtdlCiMA2tOTpRoLmgvaDBoMWV1Ymgf
+KYGUfZQoaCJ9lCiMFHNlbGVjdGVkX2NsYXNzaWZpZXJzlF2UKEsASwFLAksDZYwMdGFyZ2V0X2lu
+ZGV4lEsAaBpLAXVoJ4wDMC4wlIwDMS4wlIaUaCtdlCiMA2tOTpSMBFRyZWWUjBNMb2dpc3RpYyBS
+ZWdyZXNzaW9ulIwLTmFpdmUgQmF5ZXOUZXViaB8pgZR9lChoIn2UKIwUc2VsZWN0ZWRfY2xhc3Np
+ZmllcnOUXZQoSwBLAksDSwRljAx0YXJnZXRfaW5kZXiUSwBoGksBdWgnjAMwLjCUjAMxLjCUhpRo
+K12UKIwDa05OlIwEVHJlZZSMDk5ldXJhbCBOZXR3b3JrlIwTTG9naXN0aWMgUmVncmVzc2lvbpSM
+C05haXZlIEJheWVzlGV1YmV1Lg==
+</properties>
+		<properties node_id="21" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="22" format="pickle">gASVsAUAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABfwAAAAAAAAXkAAAC5QAAAX8AAAAiAAAF5AAAAuUAAAAAAAAA
+AAeAAAABfwAAACIAAAXkAAAC5ZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiIwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSIjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIh1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjApzaG90UmVzdWx0
+lEtlhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6
+ZZROSv7///+GlIwGYXR0cl94lIwJcG9zaXRpb25YlEtmhpSMDGF0dHJfeF9sb3dlcpROSv7///+G
+lIwMYXR0cl94X3VwcGVylE5K/v///4aUjAZhdHRyX3mUjAlwb3NpdGlvblmUS2aGlIwMYXR0cl95
+X2xvd2VylE5K/v///4aUjAxhdHRyX3lfdXBwZXKUTkr+////hpRoDH2UaBlLBXWMCmF0dHJpYnV0
+ZXOUfZQoaC1LAmg0SwJoJEsBdYwFbWV0YXOUfZR1YmgeKYGUfZQoaCF9lChoI2gkS2WGlGgmTkr+
+////hpRoKE5K/v///4aUaCpOSv7///+GlGgsaC1LZoaUaC9OSv7///+GlGgxTkr+////hpRoM2g0
+S2aGlGg2Tkr+////hpRoOE5K/v///4aUaAx9lGgZSwV1aDt9lChoLUsCaDRLAmgkSwF1aD19lIwI
+U2VsZWN0ZWSUSwFzdWJoHimBlH2UKGghfZQojAphdHRyX2NvbG9ylIwPc2hvdFJlc3VsdD1Hb2Fs
+lEtmhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6
+ZZROSv7///+GlIwGYXR0cl94lIwJcG9zaXRpb25YlEtmhpSMDGF0dHJfeF9sb3dlcpROSv7///+G
+lIwMYXR0cl94X3VwcGVylE5K/v///4aUjAZhdHRyX3mUjAlwb3NpdGlvblmUS2aGlIwMYXR0cl95
+X2xvd2VylE5K/v///4aUjAxhdHRyX3lfdXBwZXKUTkr+////hpSMBWdyYXBolH2UaBlLBXVoO32U
+KIwJcG9zaXRpb25YlEsCjAlwb3NpdGlvblmUSwKMD3Nob3RSZXN1bHQ9R29hbJRLAnVoPX2UjAhT
+ZWxlY3RlZJRLAXN1YmgeKYGUfZQoaCF9lChoU2hUS2aGlGhWTkr+////hpRoWE5K/v///4aUaFpO
+Sv7///+GlGhcaF1LZoaUaF9OSv7///+GlGhhTkr+////hpRoY2hkS2aGlGhmTkr+////hpRoaE5K
+/v///4aUaGp9lGgZSwV1aDt9lChobUsCaG5LAmhvSwJ1aD19lHViZXUu
+</properties>
+		<properties node_id="23" format="pickle">gASVmwUAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABfwAAAAAAAAXkAAAC5QAAAX8AAAAiAAAF5AAAAuUAAAAAAAAA
+AAeAAAABfwAAACIAAAXkAAAC5ZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiIwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSIjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIh1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjA9zaG90UmVzdWx0
+PUdvYWyUS2aGlIwKYXR0cl9sYWJlbJROSv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0
+cl9zaXpllE5K/v///4aUjAZhdHRyX3iUjAlwb3NpdGlvbliUS2aGlIwMYXR0cl94X2xvd2VylE5K
+/v///4aUjAxhdHRyX3hfdXBwZXKUTkr+////hpSMBmF0dHJfeZSMCXBvc2l0aW9uWZRLZoaUjAxh
+dHRyX3lfbG93ZXKUTkr+////hpSMDGF0dHJfeV91cHBlcpROSv7///+GlGgMfZRoGUsFdYwKYXR0
+cmlidXRlc5R9lChoLUsCaDRLAowWc2hvdFJlc3VsdD1CbG9ja2VkU2hvdJRLAmgkSwKMFnNob3RS
+ZXN1bHQ9TWlzc2VkU2hvdHOUSwKMEnNob3RSZXN1bHQ9T3duR29hbJRLAowUc2hvdFJlc3VsdD1T
+YXZlZFNob3SUSwKMFXNob3RSZXN1bHQ9U2hvdE9uUG9zdJRLAnWMBW1ldGFzlH2UdWJoHimBlH2U
+KGghfZQojAphdHRyX2NvbG9ylIwPc2hvdFJlc3VsdD1Hb2FslEtmhpSMCmF0dHJfbGFiZWyUTkr+
+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+GlIwGYXR0cl94lIwJ
+cG9zaXRpb25YlEtmhpSMDGF0dHJfeF9sb3dlcpROSv7///+GlIwMYXR0cl94X3VwcGVylE5K/v//
+/4aUjAZhdHRyX3mUjAlwb3NpdGlvblmUS2aGlIwMYXR0cl95X2xvd2VylE5K/v///4aUjAxhdHRy
+X3lfdXBwZXKUTkr+////hpSMBWdyYXBolH2UaBlLBXVoO32UKIwJcG9zaXRpb25YlEsCjAlwb3Np
+dGlvblmUSwKMD3Nob3RSZXN1bHQ9R29hbJRLAnVoQn2UjAhTZWxlY3RlZJRLAXN1YmgeKYGUfZQo
+aCF9lChoR2hIS2aGlGhKTkr+////hpRoTE5K/v///4aUaE5OSv7///+GlGhQaFFLZoaUaFNOSv7/
+//+GlGhVTkr+////hpRoV2hYS2aGlGhaTkr+////hpRoXE5K/v///4aUaF59lGgZSwV1aDt9lCho
+YUsCaGJLAmhjSwJ1aEJ9lHViZXUu
+</properties>
+		<properties node_id="24" format="pickle">gASVqg0AAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAWcAAAAAAAAFEwAAAhUAAAFnAAAAIgAABRMAAAIV
+AAAAAAAAAAAHgAAAAWcAAAAiAAAFEwAAAhWUjBBzZWxlY3RlZF9tZXRob2RzlI+UKIwVVW5pdmFy
+aWF0ZSBSZWdyZXNzaW9ulIwHUmVsaWVmRpSMCFJSZWxpZWZGlIwNR2luaSBEZWNyZWFzZZSMBM+H
+wrKUjBZJbmZvcm1hdGlvbiBHYWluIFJhdGlvlIwFQU5PVkGUjARGQ0JGlIwQSW5mb3JtYXRpb24g
+R2FpbpSQjAdzb3J0aW5nlEsASwGGlIwLX192ZXJzaW9uX1+USwSMEGNvbnRleHRfc2V0dGluZ3OU
+XZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQo
+jAluU2VsZWN0ZWSUSwVK/v///4aUjA5zZWxlY3RlZF9hdHRyc5RdlIwPc2VsZWN0aW9uTWV0aG9k
+lEsCSv7///+GlGgSSwR1jAphdHRyaWJ1dGVzlH2UKIwGZ2FtZUlElEsCjAlzaG9vdGVySUSUSwKM
+CmFzc2lzdGVySUSUSwKMBm1pbnV0ZZRLAowJc2l0dWF0aW9ulEsBjApsYXN0QWN0aW9ulEsBjAhz
+aG90VHlwZZRLAYwKc2hvdFJlc3VsdJRLAYwFeEdvYWyUSwKMCXBvc2l0aW9uWJRLAowJcG9zaXRp
+b25ZlEsCdYwFbWV0YXOUfZR1YmgXKYGUfZQoaBp9lChoHEsFSv7///+GlGgeXZQojApsYXN0QWN0
+aW9ulEtlhpSMCXBvc2l0aW9uWJRLZoaUjAlzaXR1YXRpb26US2WGlIwIc2hvdFR5cGWUS2WGlIwJ
+cG9zaXRpb25ZlEtmhpRlSv3///+GlGggSwNK/v///4aUaBJLBHVoIn2UKGgtSwJoLksCaCZLAmgl
+SwJoJEsCaCdLAmgoSwFoKUsBaCpLAWgrSwF1aC99lHViaBcpgZR9lChoGn2UKIwJblNlbGVjdGVk
+lEsFSv7///+GlIwOc2VsZWN0ZWRfYXR0cnOUXZSMD3NlbGVjdGlvbk1ldGhvZJRLAkr+////hpRo
+EksEdWgifZQoaC1LAmguSwJoJksCaCVLAmgkSwJoJ0sCjBRzaXR1YXRpb249RnJvbUNvcm5lcpRL
+AowSc2l0dWF0aW9uPU9wZW5QbGF5lEsCjBFzaXR1YXRpb249UGVuYWx0eZRLAowSc2l0dWF0aW9u
+PVNldFBpZWNllEsCjBdsYXN0QWN0aW9uPUJhbGxSZWNvdmVyeZRLAowUbGFzdEFjdGlvbj1CYWxs
+VG91Y2iUSwKMFmxhc3RBY3Rpb249QmxvY2tlZFBhc3OUSwKMD2xhc3RBY3Rpb249Q2FyZJRLAowU
+bGFzdEFjdGlvbj1DaGFsbGVuZ2WUSwKMF2xhc3RBY3Rpb249Q2hhbmNlTWlzc2VklEsCjBJsYXN0
+QWN0aW9uPUNoaXBwZWSUSwKMFGxhc3RBY3Rpb249Q2xlYXJhbmNllEsCjBhsYXN0QWN0aW9uPUNv
+cm5lckF3YXJkZWSUSwKMEGxhc3RBY3Rpb249Q3Jvc3OUSwKMGmxhc3RBY3Rpb249Q3Jvc3NOb3RD
+bGFpbWVklEsCjBdsYXN0QWN0aW9uPURpc3Bvc3Nlc3NlZJRLAowObGFzdEFjdGlvbj1FbmSUSwKM
+EGxhc3RBY3Rpb249RXJyb3KUSwKMGmxhc3RBY3Rpb249Rm9ybWF0aW9uQ2hhbmdllEsCjA9sYXN0
+QWN0aW9uPUZvdWyUSwKMD2xhc3RBY3Rpb249R29hbJRLAowUbGFzdEFjdGlvbj1Hb29kU2tpbGyU
+SwKME2xhc3RBY3Rpb249SGVhZFBhc3OUSwKMF2xhc3RBY3Rpb249SW50ZXJjZXB0aW9ulEsCjBds
+YXN0QWN0aW9uPUtlZXBlclBpY2t1cJRLAowYbGFzdEFjdGlvbj1LZWVwZXJTd2VlcGVylEsCjBFs
+YXN0QWN0aW9uPUxheU9mZpRLAowPbGFzdEFjdGlvbj1Ob25llEsCjBZsYXN0QWN0aW9uPU9mZnNp
+ZGVQYXNzlEsCjBpsYXN0QWN0aW9uPU9mZnNpZGVQcm92b2tlZJRLAowPbGFzdEFjdGlvbj1QYXNz
+lEsCjBdsYXN0QWN0aW9uPVBlbmFsdHlGYWNlZJRLAowQbGFzdEFjdGlvbj1QdW5jaJRLAowSbGFz
+dEFjdGlvbj1SZWJvdW5klEsCjA9sYXN0QWN0aW9uPVNhdmWUSwKMGGxhc3RBY3Rpb249U2hpZWxk
+QmFsbE9wcJRLAowSbGFzdEFjdGlvbj1TbW90aGVylEsCjBNsYXN0QWN0aW9uPVN0YW5kYXJklEsC
+jBBsYXN0QWN0aW9uPVN0YXJ0lEsCjBpsYXN0QWN0aW9uPVN1YnN0aXR1dGlvbk9mZpRLAowZbGFz
+dEFjdGlvbj1TdWJzdGl0dXRpb25PbpRLAowRbGFzdEFjdGlvbj1UYWNrbGWUSwKMEWxhc3RBY3Rp
+b249VGFrZU9ulEsCjBZsYXN0QWN0aW9uPVRocm91Z2hiYWxslEsCjBFzaG90VHlwZT1MZWZ0Rm9v
+dJRLAowWc2hvdFR5cGU9T3RoZXJCb2R5UGFydJRLAowSc2hvdFR5cGU9UmlnaHRGb290lEsCaCtL
+AXVoL32UdWJoFymBlH2UKGgafZQoaEdLBUr+////hpRoSV2UaEtLAkr+////hpRoEksEdWgifZQo
+aC1LAmguSwJoJksCaCVLAmgkSwJoJ0sCjBRzaXR1YXRpb249RnJvbUNvcm5lcpRLAowSc2l0dWF0
+aW9uPU9wZW5QbGF5lEsCjBFzaXR1YXRpb249UGVuYWx0eZRLAowSc2l0dWF0aW9uPVNldFBpZWNl
+lEsCjBdsYXN0QWN0aW9uPUJhbGxSZWNvdmVyeZRLAowUbGFzdEFjdGlvbj1CYWxsVG91Y2iUSwKM
+Fmxhc3RBY3Rpb249QmxvY2tlZFBhc3OUSwKMD2xhc3RBY3Rpb249Q2FyZJRLAowUbGFzdEFjdGlv
+bj1DaGFsbGVuZ2WUSwKMF2xhc3RBY3Rpb249Q2hhbmNlTWlzc2VklEsCjBJsYXN0QWN0aW9uPUNo
+aXBwZWSUSwKMFGxhc3RBY3Rpb249Q2xlYXJhbmNllEsCjBhsYXN0QWN0aW9uPUNvcm5lckF3YXJk
+ZWSUSwKMEGxhc3RBY3Rpb249Q3Jvc3OUSwKMGmxhc3RBY3Rpb249Q3Jvc3NOb3RDbGFpbWVklEsC
+jBdsYXN0QWN0aW9uPURpc3Bvc3Nlc3NlZJRLAowObGFzdEFjdGlvbj1FbmSUSwKMEGxhc3RBY3Rp
+b249RXJyb3KUSwKMGmxhc3RBY3Rpb249Rm9ybWF0aW9uQ2hhbmdllEsCjA9sYXN0QWN0aW9uPUZv
+dWyUSwKMD2xhc3RBY3Rpb249R29hbJRLAowUbGFzdEFjdGlvbj1Hb29kU2tpbGyUSwKME2xhc3RB
+Y3Rpb249SGVhZFBhc3OUSwKMF2xhc3RBY3Rpb249SW50ZXJjZXB0aW9ulEsCjBdsYXN0QWN0aW9u
+PUtlZXBlclBpY2t1cJRLAowYbGFzdEFjdGlvbj1LZWVwZXJTd2VlcGVylEsCjBFsYXN0QWN0aW9u
+PUxheU9mZpRLAowPbGFzdEFjdGlvbj1Ob25llEsCjBZsYXN0QWN0aW9uPU9mZnNpZGVQYXNzlEsC
+jBpsYXN0QWN0aW9uPU9mZnNpZGVQcm92b2tlZJRLAowPbGFzdEFjdGlvbj1QYXNzlEsCjBdsYXN0
+QWN0aW9uPVBlbmFsdHlGYWNlZJRLAowQbGFzdEFjdGlvbj1QdW5jaJRLAowSbGFzdEFjdGlvbj1S
+ZWJvdW5klEsCjA9sYXN0QWN0aW9uPVNhdmWUSwKMGGxhc3RBY3Rpb249U2hpZWxkQmFsbE9wcJRL
+AowSbGFzdEFjdGlvbj1TbW90aGVylEsCjBNsYXN0QWN0aW9uPVN0YW5kYXJklEsCjBBsYXN0QWN0
+aW9uPVN0YXJ0lEsCjBpsYXN0QWN0aW9uPVN1YnN0aXR1dGlvbk9mZpRLAowZbGFzdEFjdGlvbj1T
+dWJzdGl0dXRpb25PbpRLAowRbGFzdEFjdGlvbj1UYWNrbGWUSwKMEWxhc3RBY3Rpb249VGFrZU9u
+lEsCjBZsYXN0QWN0aW9uPVRocm91Z2hiYWxslEsCjBFzaG90VHlwZT1MZWZ0Rm9vdJRLAowWc2hv
+dFR5cGU9T3RoZXJCb2R5UGFydJRLAowSc2hvdFR5cGU9UmlnaHRGb290lEsCjBZzaG90UmVzdWx0
+PUJsb2NrZWRTaG90lEsCjA9zaG90UmVzdWx0PUdvYWyUSwKMFnNob3RSZXN1bHQ9TWlzc2VkU2hv
+dHOUSwKMEnNob3RSZXN1bHQ9T3duR29hbJRLAowUc2hvdFJlc3VsdD1TYXZlZFNob3SUSwKMFXNo
+b3RSZXN1bHQ9U2hvdE9uUG9zdJRLAnVoL32UdWJldS4=
+</properties>
+		<properties node_id="25" format="pickle">gASV2wIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABMwAAAAA
+AAAHIwAAAnkAAATMAAAAIgAAByMAAAJ5AAAAAAAAAAAHgAAABMwAAAAiAAAHIwAAAnmUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwJcG9zaXRpb25YlEsChpSMCWF0dHJpYnV0ZZRLAIaUjAlwb3NpdGlv
+blmUSwKGlGgVSwGGlIwKYXNzaXN0ZXJJRJRLAoaUaBVLAoaUjAlzaG9vdGVySUSUSwKGlGgVSwOG
+lIwGZ2FtZUlElEsChpRoFUsEhpSMBm1pbnV0ZZRLAoaUaBVLBYaUjAlzaXR1YXRpb26USwGGlGgV
+SwaGlIwKbGFzdEFjdGlvbpRLAYaUaBVLB4aUjAhzaG90VHlwZZRLAYaUaBVLCIaUjAV4R29hbJRL
+AoaUaBVLCYaUjApzaG90UmVzdWx0lEsBhpSMBWNsYXNzlEsAhpR1Sv7///+GlGgHSwF1jAphdHRy
+aWJ1dGVzlH2UKIwGZ2FtZUlElEsCjAlzaG9vdGVySUSUSwKMCmFzc2lzdGVySUSUSwKMBm1pbnV0
+ZZRLAowJc2l0dWF0aW9ulEsBjApsYXN0QWN0aW9ulEsBjAhzaG90VHlwZZRLAYwKc2hvdFJlc3Vs
+dJRLAYwFeEdvYWyUSwKMCXBvc2l0aW9uWJRLAowJcG9zaXRpb25ZlEsCdYwFbWV0YXOUfZR1YmF1
+Lg==
+</properties>
+		<properties node_id="26" format="pickle">gASVoAEAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
+c5SJjAphdXRvY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21l
+dHJ5lENCAdnQywADAAAAAAB6AAAAdgAAA2cAAAIWAAAAegAAAJgAAANnAAACFgAAAAAAAAAAB4AA
+AAB6AAAAmAAAA2cAAAIWlIwQc2VsZWN0ZWRfbGVhcm5lcpRdlEsFYYwRc2VsZWN0ZWRfcXVhbnRp
+dHmUSwCMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0
+LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJc2VsZWN0aW9ulI+UKEsA
+SwGGlEsBSwCGlJBoCksBdYwHY2xhc3Nlc5SMAzEuMJSMAzAuMJSGlHViaA8pgZR9lChoEn2UKGgU
+j5RoCksBdWgYjAMwLjCUjAMxLjCUhpR1YmV1Lg==
+</properties>
+		<properties node_id="27" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\nTHR = 0.30\n\n# --- 클래스 값(문자열)과 Y 인덱스 확보 ---\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)           # 예: [\'1.0\',\'0.0\']  (값 순서)\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\n\n# &gt;&gt;&gt; 실제 라벨을 "값" 기준으로 0/1로 재구성 (값이 \'1.0\'이면 1, 아니면 0)\ny_true = np.array([1 if class_vals[i] == \'1.0\' else 0 for i in Y_idx], dtype=int)\n\n# --- metas에서 확률 테이블 취득 ---\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# &gt;&gt;&gt; 확률 컬럼은 "… (1.0)" 만 사용  (양성=1.0의 확률만)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("\'(1.0)\' 확률 컬럼을 찾지 못했습니다. Predictions 출력이 맞는지 확인하세요.")\n\n# --- 임계값 적용 및 지표 ---\nrows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    y_pred = (p &gt;= THR).astype(int)\n\n    tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n    fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n    tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n    fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n    denom_p = (tp+fp) if (tp+fp)&gt;0 else 1\n    denom_r = (tp+fn) if (tp+fn)&gt;0 else 1\n    acc  = (tp+tn) / max(len(y_true),1)\n    prec = tp/denom_p\n    rec  = tp/denom_r\n    f1   = 2*prec*rec/(prec+rec+1e-9) if (prec+rec)&gt;0 else 0\n\n    model = re.sub(r"\\s*\\(1\\.0\\)\\s*$", "", col)  # " (1.0)" 떼기\n    rows.append([model,tp,fp,tn,fn,acc,prec,rec,f1])\n\nperf_df = pd.DataFrame(rows, columns=["Model","TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]).fillna(0)\n\n# --- Orange Table (Model은 meta) ---\nmetrics = ["TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]\ncont_vars = [Orange.data.ContinuousVariable(c) for c in metrics]\nmodel_var = Orange.data.StringVariable("Model")\ndomain = Orange.data.Domain(cont_vars, metas=[model_var])\nX_np = perf_df[metrics].to_numpy(dtype=float)\nmetas_np = np.array(perf_df["Model"], dtype=object).reshape(-1,1)\nout_data = Orange.data.Table(domain, X_np, None, metas_np)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="28" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xb3\x00\x00\x01\x02\x00\x00\x06R\x00\x00\x04\x07\x00\x00\x00\xb3\x00\x00\x01$\x00\x00\x06R\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xb3\x00\x00\x01$\x00\x00\x06R\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="29" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="30" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\n# ---- 스윕할 threshold 목록(원하면 수정)\nTHRS = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]\n\n# ---- 1) 클래스 값/인덱스 확보 (Edit Domain에서 본 순서 반영)\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)                 # 예: [\'1.0\',\'0.0\']\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\n\n# 양성(Goal)을 \'값\' 기준으로 정의: 값이 \'1.0\'인 인덱스를 양성으로\npos_value = \'1.0\'\npos_index = class_vals.index(pos_value) if pos_value in class_vals else 1\ny_true = (Y_idx == pos_index).astype(int)\n\n# ---- 2) metas에서 확률 표 취득 (Predictions 출력이어야 함)\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# "(1.0)" 확률 컬럼만 사용 (양성=1.0의 확률)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    # 백업: \'(1)\' 또는 \'(Goal)\' 패턴도 탐색\n    prob_cols = [c for c in metas.columns if re.search(r"\\((1|Goal)\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("양성(1.0) 확률 컬럼을 찾지 못했습니다. Test &amp; Score → Predictions 연결을 확인하세요.")\n\n# ---- 3) 임계값 스윕으로 지표 계산 (Long 테이블)\nrows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    model = re.sub(r"\\s*\\(1\\.0\\)\\s*$", "", col)  # " (1.0)" 제거\n    for thr in THRS:\n        y_pred = (p &gt;= thr).astype(int)\n\n        tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n        fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n        tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n        fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n        denom_p = (tp+fp) if (tp+fp) &gt; 0 else 1\n        denom_r = (tp+fn) if (tp+fn) &gt; 0 else 1\n        acc  = (tp+tn) / max(len(y_true), 1)\n        prec = tp / denom_p\n        rec  = tp / denom_r\n        f1   = 2 * prec * rec / (prec + rec + 1e-9) if (prec + rec) &gt; 0 else 0\n\n        rows.append([model, thr, acc, prec, rec, f1])\n\nlong_df = pd.DataFrame(rows, columns=["Model","THR","Accuracy","Precision","Recall","F1"]).fillna(0)\n\n# ---- Orange Table로 내보내기 (Model을 attribute로 넣기) ----\nmetrics = ["THR","Accuracy","Precision","Recall","F1"]\n# Model을 DiscreteVariable로 선언해서 attribute로 포함\nmodel_var = Orange.data.DiscreteVariable("Model", values=list(long_df["Model"].unique()))\ndomain = Orange.data.Domain([model_var] + [Orange.data.ContinuousVariable(c) for c in metrics])\n\n# Model을 숫자로 인코딩 (Orange Domain 맞추기)\nmodel_map = {m:i for i,m in enumerate(model_var.values)}\nmodel_codes = long_df["Model"].map(model_map).to_numpy().reshape(-1,1)\n\n# X = 모든 연속형 값, y 없음\nX_np = np.column_stack([model_codes, long_df[metrics].to_numpy(dtype=float)])\nout_data = Orange.data.Table(domain, X_np)\n\nprint("[OK] Generated sweep table with rows:", len(long_df))\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="31" format="pickle">gASVZAQAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABfwAAAAAAAAXkAAAC5QAAAX8AAAAiAAAF5AAAAuUAAAAAAAAA
+AAeAAAABfwAAACIAAAXkAAAC5ZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiYwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSIjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIl1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjAVNb2RlbJRLZYaU
+jAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3NpemWUTkr+
+////hpSMBmF0dHJfeJSMA1RIUpRLZoaUjAxhdHRyX3hfbG93ZXKUTkr+////hpSMDGF0dHJfeF91
+cHBlcpROSv7///+GlIwGYXR0cl95lIwCRjGUS2aGlIwMYXR0cl95X2xvd2VylE5K/v///4aUjAxh
+dHRyX3lfdXBwZXKUTkr+////hpRoDH2UaBlLBXWMCmF0dHJpYnV0ZXOUfZQojAVNb2RlbJRLAYwD
+VEhSlEsCjAhBY2N1cmFjeZRLAowJUHJlY2lzaW9ulEsCjAZSZWNhbGyUSwKMAkYxlEsCdYwFbWV0
+YXOUfZR1YmgeKYGUfZQoaCF9lCiMCmF0dHJfY29sb3KUTkr+////hpSMCmF0dHJfbGFiZWyUTkr+
+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+GlIwGYXR0cl94lGg+
+S2aGlIwMYXR0cl94X2xvd2VylE5K/v///4aUjAxhdHRyX3hfdXBwZXKUTkr+////hpSMBmF0dHJf
+eZRoQktmhpSMDGF0dHJfeV9sb3dlcpROSv7///+GlIwMYXR0cl95X3VwcGVylE5K/v///4aUjAVn
+cmFwaJR9lGgZSwV1aDt9lChoPksCaD9LAmhASwJoQUsCaEJLAnVoQ32UaD1LA3N1YmV1Lg==
+</properties>
+		<properties node_id="32" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="33" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\nTHR = 0.25\n\n# --- 클래스 값(문자열)과 Y 인덱스 확보 ---\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)           # 예: [\'1.0\',\'0.0\']  (값 순서)\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\n\n# &gt;&gt;&gt; 실제 라벨을 "값" 기준으로 0/1로 재구성 (값이 \'1.0\'이면 1, 아니면 0)\ny_true = np.array([1 if class_vals[i] == \'1.0\' else 0 for i in Y_idx], dtype=int)\n\n# --- metas에서 확률 테이블 취득 ---\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# &gt;&gt;&gt; 확률 컬럼은 "… (1.0)" 만 사용  (양성=1.0의 확률만)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("\'(1.0)\' 확률 컬럼을 찾지 못했습니다. Predictions 출력이 맞는지 확인하세요.")\n\n# --- 임계값 적용 및 지표 ---\nrows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    y_pred = (p &gt;= THR).astype(int)\n\n    tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n    fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n    tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n    fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n    denom_p = (tp+fp) if (tp+fp)&gt;0 else 1\n    denom_r = (tp+fn) if (tp+fn)&gt;0 else 1\n    acc  = (tp+tn) / max(len(y_true),1)\n    prec = tp/denom_p\n    rec  = tp/denom_r\n    f1   = 2*prec*rec/(prec+rec+1e-9) if (prec+rec)&gt;0 else 0\n\n    model = re.sub(r"\\s*\\(1\\.0\\)\\s*$", "", col)  # " (1.0)" 떼기\n    rows.append([model,tp,fp,tn,fn,acc,prec,rec,f1])\n\nperf_df = pd.DataFrame(rows, columns=["Model","TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]).fillna(0)\n\n# --- Orange Table (Model은 meta) ---\nmetrics = ["TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]\ncont_vars = [Orange.data.ContinuousVariable(c) for c in metrics]\nmodel_var = Orange.data.StringVariable("Model")\ndomain = Orange.data.Domain(cont_vars, metas=[model_var])\nX_np = perf_df[metrics].to_numpy(dtype=float)\nmetas_np = np.array(perf_df["Model"], dtype=object).reshape(-1,1)\nout_data = Orange.data.Table(domain, X_np, None, metas_np)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="34" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xb9\x00\x00\x01\xbb\x00\x00\x06X\x00\x00\x04\xc0\x00\x00\x00\xb9\x00\x00\x01\xdd\x00\x00\x06X\x00\x00\x04\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xb9\x00\x00\x01\xdd\x00\x00\x06X\x00\x00\x04\xc0', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="35" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="36" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\nTHR = 0.2\n\n# --- 클래스 값(문자열)과 Y 인덱스 확보 ---\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)           # 예: [\'1.0\',\'0.0\']  (값 순서)\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\n\n# &gt;&gt;&gt; 실제 라벨을 "값" 기준으로 0/1로 재구성 (값이 \'1.0\'이면 1, 아니면 0)\ny_true = np.array([1 if class_vals[i] == \'1.0\' else 0 for i in Y_idx], dtype=int)\n\n# --- metas에서 확률 테이블 취득 ---\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# &gt;&gt;&gt; 확률 컬럼은 "… (1.0)" 만 사용  (양성=1.0의 확률만)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("\'(1.0)\' 확률 컬럼을 찾지 못했습니다. Predictions 출력이 맞는지 확인하세요.")\n\n# --- 임계값 적용 및 지표 ---\nrows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    y_pred = (p &gt;= THR).astype(int)\n\n    tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n    fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n    tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n    fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n    denom_p = (tp+fp) if (tp+fp)&gt;0 else 1\n    denom_r = (tp+fn) if (tp+fn)&gt;0 else 1\n    acc  = (tp+tn) / max(len(y_true),1)\n    prec = tp/denom_p\n    rec  = tp/denom_r\n    f1   = 2*prec*rec/(prec+rec+1e-9) if (prec+rec)&gt;0 else 0\n\n    model = re.sub(r"\\s*\\(1\\.0\\)\\s*$", "", col)  # " (1.0)" 떼기\n    rows.append([model,tp,fp,tn,fn,acc,prec,rec,f1])\n\nperf_df = pd.DataFrame(rows, columns=["Model","TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]).fillna(0)\n\n# --- Orange Table (Model은 meta) ---\nmetrics = ["TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]\ncont_vars = [Orange.data.ContinuousVariable(c) for c in metrics]\nmodel_var = Orange.data.StringVariable("Model")\ndomain = Orange.data.Domain(cont_vars, metas=[model_var])\nX_np = perf_df[metrics].to_numpy(dtype=float)\nmetas_np = np.array(perf_df["Model"], dtype=object).reshape(-1,1)\nout_data = Orange.data.Table(domain, X_np, None, metas_np)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="37" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xeb\x00\x00\x01o\x00\x00\x06\x8a\x00\x00\x04t\x00\x00\x00\xeb\x00\x00\x01\x91\x00\x00\x06\x8a\x00\x00\x04t\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xeb\x00\x00\x01\x91\x00\x00\x06\x8a\x00\x00\x04t', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="38" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\n# 스윕할 임계값들(원하면 수정: 더 촘촘히 보고 싶으면 간격을 줄이세요)\nTHRS = [0.10, 0.12, 0.15, 0.18, 0.20, 0.22, 0.25, 0.28, 0.30, 0.35, 0.40, 0.45, 0.50]\n\n# --- 1) 클래스 인덱스 &amp; \'양성\' 정의 (값이 \'1.0\'인 클래스가 양성) ---\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)                # 예: [\'1.0\',\'0.0\'] (Edit Domain의 순서)\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\npos_index = class_vals.index(\'1.0\') if \'1.0\' in class_vals else 1\ny_true = (Y_idx == pos_index).astype(int)\n\n# --- 2) (Predictions) 메타에서 \'... (1.0)\' 확률 컬럼만 사용 ---\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    # 백업: \'(1)\' 또는 \'(Goal)\' 패턴\n    prob_cols = [c for c in metas.columns if re.search(r"\\((1|Goal)\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("양성(1.0) 확률 컬럼을 찾지 못했습니다. Test &amp; Score → Predictions 연결을 확인하세요.")\n\n# --- 3) 모델별로 THR 스윕하여 F1 최대점 탐색 ---\nout_rows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    model = re.sub(r"\\s*\\((1\\.0|1|Goal)\\)\\s*$", "", col)\n\n    best = {"F1": -1, "THR": None, "TP":0, "FP":0, "TN":0, "FN":0, "Precision":0.0, "Recall":0.0, "Accuracy":0.0}\n    for thr in THRS:\n        y_pred = (p &gt;= thr).astype(int)\n\n        tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n        fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n        tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n        fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n        denom_p = (tp+fp) if (tp+fp)&gt;0 else 1\n        denom_r = (tp+fn) if (tp+fn)&gt;0 else 1\n        prec = tp/denom_p\n        rec  = tp/denom_r\n        f1   = 2*prec*rec/(prec+rec+1e-9) if (prec+rec)&gt;0 else 0\n        acc  = (tp+tn)/max(len(y_true),1)\n\n        # F1 최대, 동률이면 Recall 높은 쪽, 또 동률이면 Precision 높은 쪽\n        better = (f1 &gt; best["F1"]) or (abs(f1-best["F1"])&lt;1e-12 and (rec&gt;best["Recall"] or (abs(rec-best["Recall"])&lt;1e-12 and prec&gt;best["Precision"])))\n        if better:\n            best.update({"F1":f1,"THR":thr,"TP":tp,"FP":fp,"TN":tn,"FN":fn,"Precision":prec,"Recall":rec,"Accuracy":acc})\n\n    out_rows.append([model, best["THR"], best["F1"], best["Accuracy"], best["Precision"], best["Recall"], best["TP"], best["FP"], best["TN"], best["FN"]])\n\nbest_df = pd.DataFrame(out_rows, columns=["Model","Best_THR","Max_F1","Accuracy","Precision","Recall","TP","FP","TN","FN"])\n\n# --- 4) Orange Table로 출력 (Model은 meta 문자열, 나머지는 수치) ---\nnum_cols = ["Best_THR","Max_F1","Accuracy","Precision","Recall","TP","FP","TN","FN"]\ncont = [Orange.data.ContinuousVariable(c) for c in num_cols]\nmodel_var = Orange.data.StringVariable("Model")\ndomain = Orange.data.Domain(cont, metas=[model_var])\nX_np = best_df[num_cols].to_numpy(dtype=float)\nmetas_np = np.array(best_df["Model"], dtype=object).reshape(-1,1)\nout_data = Orange.data.Table(domain, X_np, None, metas_np)\n\nprint("[OK] Best thresholds computed for models:", list(best_df["Model"]))\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="39" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="40" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf0\x00\x00\x00\x00\x00\x00\x06\x8f\x00\x00\x03\x05\x00\x00\x00\xf0\x00\x00\x00"\x00\x00\x06\x8f\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xf0\x00\x00\x00"\x00\x00\x06\x8f\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [3], 'columns': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}, 'stored_sort': [('Best_THR', -1), ('Model', -1), ('Accuracy', -1), ('Max_F1', -1)], '__version__': 1}</properties>
+		<properties node_id="41" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="42" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': 'import numpy as np, pandas as pd, re, Orange\n\nTHR = 0.2\n\n# --- 클래스 값(문자열)과 Y 인덱스 확보 ---\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)           # 예: [\'1.0\',\'0.0\']  (값 순서)\nY_idx_raw = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx_raw)\nY_idx = Y_idx_raw[mask].astype(int)\n\n# &gt;&gt;&gt; 실제 라벨을 "값" 기준으로 0/1로 재구성 (값이 \'1.0\'이면 1, 아니면 0)\ny_true = np.array([1 if class_vals[i] == \'1.0\' else 0 for i in Y_idx], dtype=int)\n\n# --- metas에서 확률 테이블 취득 ---\nmeta_names = [m.name for m in in_data.domain.metas]\nmetas = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# &gt;&gt;&gt; 확률 컬럼은 "… (1.0)" 만 사용  (양성=1.0의 확률만)\nprob_cols = [c for c in metas.columns if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("\'(1.0)\' 확률 컬럼을 찾지 못했습니다. Predictions 출력이 맞는지 확인하세요.")\n\n# --- 임계값 적용 및 지표 ---\nrows = []\nfor col in prob_cols:\n    p = pd.to_numeric(metas[col], errors="coerce").fillna(0.0).to_numpy()\n    y_pred = (p &gt;= THR).astype(int)\n\n    tp = int(((y_true==1)&amp;(y_pred==1)).sum())\n    fp = int(((y_true==0)&amp;(y_pred==1)).sum())\n    tn = int(((y_true==0)&amp;(y_pred==0)).sum())\n    fn = int(((y_true==1)&amp;(y_pred==0)).sum())\n\n    denom_p = (tp+fp) if (tp+fp)&gt;0 else 1\n    denom_r = (tp+fn) if (tp+fn)&gt;0 else 1\n    acc  = (tp+tn) / max(len(y_true),1)\n    prec = tp/denom_p\n    rec  = tp/denom_r\n    f1   = 2*prec*rec/(prec+rec+1e-9) if (prec+rec)&gt;0 else 0\n\n    model = re.sub(r"\\s*\\(1\\.0\\)\\s*$", "", col)  # " (1.0)" 떼기\n    rows.append([model,tp,fp,tn,fn,acc,prec,rec,f1])\n\nperf_df = pd.DataFrame(rows, columns=["Model","TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]).fillna(0)\n\n# --- Orange Table (Model은 meta) ---\nmetrics = ["TP","FP","TN","FN","Accuracy","Precision","Recall","F1"]\ncont_vars = [Orange.data.ContinuousVariable(c) for c in metrics]\nmodel_var = Orange.data.StringVariable("Model")\ndomain = Orange.data.Domain(cont_vars, metas=[model_var])\nX_np = perf_df[metrics].to_numpy(dtype=float)\nmetas_np = np.array(perf_df["Model"], dtype=object).reshape(-1,1)\nout_data = Orange.data.Table(domain, X_np, None, metas_np)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="43" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf0\x00\x00\x00\x00\x00\x00\x06\x8f\x00\x00\x03\x05\x00\x00\x00\xf0\x00\x00\x00"\x00\x00\x06\x8f\x00\x00\x03\x05\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xf0\x00\x00\x00"\x00\x00\x06\x8f\x00\x00\x03\x05', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [5], 'columns': [0, 1, 2, 3, 4, 5, 6, 7, 8]}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="44" format="pickle">gASVmgIAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMEGN1bXVs
+YXRpdmVfZGlzdHKUiYwTZml0dGVkX2Rpc3RyaWJ1dGlvbpRLAIwJaGlkZV9iYXJzlImMDWtkZV9z
+bW9vdGhpbmeUSwqME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAdEAAAAhAAAFmwAA
+AqgAAAHRAAAAQwAABZsAAAKoAAAAAAAAAAAHgAAAAdEAAABDAAAFmwAAAqiUjApzaG93X3Byb2Jz
+lImMDHNvcnRfYnlfZnJlcZSJjA9zdGFja2VkX2NvbHVtbnOUiYwLX192ZXJzaW9uX1+USwKMEGNv
+bnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
+fZQojAZ2YWx1ZXOUfZQojARjdmFylIwIU2VsZWN0ZWSUS2WGlIwObnVtYmVyX29mX2JpbnOUSwBK
+/v///4aUjA1zZWxlY3RlZF9iYXJzlI+USv7///+GlIwDdmFylIwPc2hvdFJlc3VsdD1Hb2FslEtm
+hpRoDEsCdYwKYXR0cmlidXRlc5R9lCiMCXBvc2l0aW9uWJRLAowJcG9zaXRpb25ZlEsCjA9zaG90
+UmVzdWx0PUdvYWyUSwJ1jAVtZXRhc5R9lIwIU2VsZWN0ZWSUSwFzdWJoESmBlH2UKGgUfZQojARj
+dmFylE5K/v///4aUjA5udW1iZXJfb2ZfYmluc5RLBUr+////hpSMDXNlbGVjdGVkX2JhcnOUj5RK
+/v///4aUjAN2YXKUaCNLZoaUaAxLAnVoIX2UKGgjSwJoJEsCaCVLAnVoJn2UdWJldS4=
+</properties>
+		<properties node_id="45" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'Stack', 'savedWidgetGeometry': None, '__version__': 1}</properties>
+		<properties node_id="46" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x07\x7f\x00\x00\x04\x07', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [('shotResult=Goal', 1), ('kNN', 1), ('Tree', 1), ('Logistic Regression', -1), ('Naive Bayes', -1), ('Neural Network', 1)], '__version__': 1}</properties>
+		<properties node_id="47" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x00\x00\x00\x00\x06:\x00\x00\x02y\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x00"\x00\x00\x06:\x00\x00\x02y', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}], 'scriptText': '# === 전체 데이터: 원래 예측(모델 기본 임계값) + 새 임계값 예측 나란히 ===\nimport numpy as np, pandas as pd, re, Orange\n\nNEW_THR = 0.22    # &lt;- 새 임계값\n\n# ---------- 1) 원본 X, Y(Actual) ----------\nX_df = in_data.X_df.copy()\nX_df.columns = [v.name for v in in_data.domain.attributes]\n\ncv = in_data.domain.class_var\nclass_vals = list(cv.values)                 # 예: [\'1.0\',\'0.0\']\nY_idx = np.asarray(in_data.Y, dtype=float)\nmask = np.isfinite(Y_idx)\nY_idx = Y_idx[mask].astype(int)\n# \'값\'이 \'1.0\'인 인덱스를 양성으로 본다\npos_index = class_vals.index(\'1.0\') if \'1.0\' in class_vals else 1\ny_true = (Y_idx == pos_index).astype(int)\n\nX_df = X_df.loc[mask].reset_index(drop=True)\n\n# ---------- 2) Predictions 메타에서 확률/원본 예측 라벨 추출 ----------\nmeta_vars = list(in_data.domain.metas)\nmeta_names = [m.name for m in meta_vars]\nmetas_df = pd.DataFrame(in_data.metas, columns=meta_names).loc[mask].reset_index(drop=True)\n\n# 확률(양성=1.0) 컬럼들\nprob_cols = [c for c in meta_names if re.search(r"\\(1\\.0\\)\\s*$", c)]\nif not prob_cols:\n    # 백업: (1) 또는 (Goal)\n    prob_cols = [c for c in meta_names if re.search(r"\\((1|Goal)\\)\\s*$", c)]\nif not prob_cols:\n    raise RuntimeError("양성(1.0) 확률 컬럼을 찾지 못했습니다. \'Test &amp; Score → Predictions\' 연결을 확인하세요.")\n\n# 모델명 → 원본 예측 라벨 컬럼 이름 후보 매핑 만들기\n# (일부 Orange 설정에선 각 모델의 \'원본 예측\'이 메타로 제공됨: 예) \'Stack\' 같은 이산형 메타\ndef find_original_pred_col(model_name:str):\n    # 1) 정확히 같은 이름의 메타(이산형)\n    for mv in meta_vars:\n        if mv.name == model_name and isinstance(mv, Orange.data.DiscreteVariable):\n            return mv.name\n    # 2) \'Predicted &lt;model&gt;\' 같은 관용적 이름 패턴\n    for mv in meta_vars:\n        if re.search(rf"pred.*{re.escape(model_name)}", mv.name, flags=re.I) and isinstance(mv, Orange.data.DiscreteVariable):\n            return mv.name\n    return None  # 못 찾으면 None\n\n# ---------- 3) 출력 프레임 구성 ----------\nout = X_df.copy()\nout["Actual"] = y_true\n\nfor col in prob_cols:\n    # 모델명 정리 (맨 끝의 괄호 제거)\n    model = re.sub(r"\\s*\\((1\\.0|1|Goal)\\)\\s*$", "", col)\n\n    # 확률\n    p = pd.to_numeric(metas_df[col], errors="coerce").fillna(0.0)\n    out[f"P({model})"] = p\n\n    # 원본 예측 라벨(있으면 그대로, 없으면 0.5 기준 재구성)\n    pred_orig_col = find_original_pred_col(model)\n    if pred_orig_col is not None:\n        # 메타의 이산 라벨 값을 0/1로 변환 (클래스 \'값\'과 index 매핑)\n        raw = metas_df[pred_orig_col]\n        # 값이 문자열(\'1.0\',\'0.0\')일 수도 있고, 인덱스일 수도 있음 → 모두 0/1로 통일\n        s = pd.to_numeric(raw, errors="coerce")\n        if s.notna().all():\n            # 숫자로 보이면 index로 간주\n            pred_orig = (s.astype(int) == pos_index).astype(int)\n        else:\n            # 문자열 값으로 보이면 클래스 \'값\' 비교\n            pred_orig = raw.astype(str).map(lambda v: 1 if str(v) == \'1.0\' else 0).fillna(0).astype(int)\n    else:\n        # 원본 라벨 메타가 없으면 통상 0.5 기준이 원래 임계값\n        pred_orig = (p &gt;= 0.5).astype(int)\n\n    out[f"Pred_orig({model})"] = pred_orig\n\n    # 새 임계값 예측\n    pred_new = (p.to_numpy() &gt;= NEW_THR).astype(int)\n    out[f"Pred_new({model}@{NEW_THR})"] = pred_new\n\n    # 변화 플래그(원본과 새 임계값이 다른 행)\n    out[f"Changed({model})"] = (pred_new - pred_orig.to_numpy() != 0).astype(int)\n\n# ---------- 4) Orange Table 변환 ----------\n# attributes: 원래 X + 모든 P(model)\nattr_vars = list(in_data.domain.attributes)\nprob_attr_vars = [Orange.data.ContinuousVariable(c) for c in out.columns if c.startswith("P(")]\nattr_all = attr_vars + prob_attr_vars\n\n# class: Actual\nclass_var = Orange.data.DiscreteVariable.make("Actual", values=["0","1"])\n\n# metas: Pred_orig(*), Pred_new(*), Changed(*)\nmeta_cols = [c for c in out.columns if c.startswith("Pred_orig(") or c.startswith("Pred_new(") or c.startswith("Changed(")]\nmeta_vars = []\nfor c in meta_cols:\n    if c.startswith("Changed("):\n        # Changed는 0/1 이산형\n        meta_vars.append(Orange.data.DiscreteVariable.make(c, values=["0","1"]))\n    else:\n        meta_vars.append(Orange.data.DiscreteVariable.make(c, values=["0","1"]))\n\ndomain = Orange.data.Domain(attr_all, class_var, metas=meta_vars)\n\nX_mat = np.column_stack([\n    in_data.X[mask],\n    out[[c for c in out.columns if c.startswith("P(")]].to_numpy(dtype=float)\n])\nY_mat = y_true.astype(float)\nmetas_mat = out[meta_cols].to_numpy(object)\n\nout_data = Orange.data.Table(domain, X_mat, Y_mat, metas_mat)\n\nprint(f"[OK] rows={len(out_data)}, models={len(prob_cols)}, NEW_THR={NEW_THR}")\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xac\x00\x00\x00h\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="48" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xb3\x00\x00\x00z\x00\x00\x06R\x00\x00\x03\x7f\x00\x00\x00\xb3\x00\x00\x00\x9c\x00\x00\x06R\x00\x00\x03\x7f\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\xb3\x00\x00\x00\x9c\x00\x00\x06R\x00\x00\x03\x7f', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="49" format="pickle">gASVNQcAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
+bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
+ZW9tZXRyeZRDQgHZ0MsAAwAAAAABfwAAAAAAAAXkAAAC5QAAAX8AAAAiAAAF5AAAAuUAAAAAAAAA
+AAeAAAABfwAAACIAAAXkAAAC5ZSMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
+aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
+dHmUiIwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
+ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
+bGxpcHNllImMCXNob3dfZ3JpZJSIjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIh1jAtf
+X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5n
+c5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjApzaG90UmVzdWx0
+lEtlhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6
+ZZROSv7///+GlIwGYXR0cl94lIwFeEdvYWyUS2aGlIwMYXR0cl94X2xvd2VylE5K/v///4aUjAxh
+dHRyX3hfdXBwZXKUTkr+////hpSMBmF0dHJfeZSMBm1pbnV0ZZRLZoaUjAxhdHRyX3lfbG93ZXKU
+Tkr+////hpSMDGF0dHJfeV91cHBlcpROSv7///+GlGgMfZRoGUsFdYwKYXR0cmlidXRlc5R9lCiM
+BmdhbWVJRJRLAowJc2hvb3RlcklElEsCjAphc3Npc3RlcklElEsCaDRLAowJc2l0dWF0aW9ulEsB
+jApsYXN0QWN0aW9ulEsBjAhzaG90VHlwZZRLAWgkSwFoLUsCjAlwb3NpdGlvbliUSwKMCXBvc2l0
+aW9uWZRLAnWMBW1ldGFzlH2UdWJoHimBlH2UKGghfZQojAphdHRyX2NvbG9ylIwKc2hvdFJlc3Vs
+dJRLZYaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3Np
+emWUTkr+////hpSMBmF0dHJfeJSMCXBvc2l0aW9uWJRLZoaUjAxhdHRyX3hfbG93ZXKUTkr+////
+hpSMDGF0dHJfeF91cHBlcpROSv7///+GlIwGYXR0cl95lIwJcG9zaXRpb25ZlEtmhpSMDGF0dHJf
+eV9sb3dlcpROSv7///+GlIwMYXR0cl95X3VwcGVylE5K/v///4aUjAVncmFwaJR9lGgZSwV1aDt9
+lChoVEsCaFtLAmhLSwF1aEV9lHViaB4pgZR9lChoIX2UKGhKaEtLZYaUaE1OSv7///+GlGhPTkr+
+////hpRoUU5K/v///4aUaFNoVEtmhpRoVk5K/v///4aUaFhOSv7///+GlGhaaFtLZoaUaF1OSv7/
+//+GlGhfTkr+////hpRoYX2UaBlLBXVoO32UKGhUSwJoW0sCaEtLAXVoRX2UjAhTZWxlY3RlZJRL
+AXN1YmgeKYGUfZQoaCF9lCiMCmF0dHJfY29sb3KUjA9zaG90UmVzdWx0PUdvYWyUS2aGlIwKYXR0
+cl9sYWJlbJROSv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aU
+jAZhdHRyX3iUjAlwb3NpdGlvbliUS2aGlIwMYXR0cl94X2xvd2VylE5K/v///4aUjAxhdHRyX3hf
+dXBwZXKUTkr+////hpSMBmF0dHJfeZSMCXBvc2l0aW9uWZRLZoaUjAxhdHRyX3lfbG93ZXKUTkr+
+////hpSMDGF0dHJfeV91cHBlcpROSv7///+GlIwFZ3JhcGiUfZRoGUsFdWg7fZQojAlwb3NpdGlv
+bliUSwKMCXBvc2l0aW9uWZRLAowPc2hvdFJlc3VsdD1Hb2FslEsCdWhFfZSMCFNlbGVjdGVklEsB
+c3ViaB4pgZR9lChoIX2UKGh5aHpLZoaUaHxOSv7///+GlGh+Tkr+////hpRogE5K/v///4aUaIJo
+g0tmhpRohU5K/v///4aUaIdOSv7///+GlGiJaIpLZoaUaIxOSv7///+GlGiOTkr+////hpRokH2U
+aBlLBXVoO32UKGiTSwJolEsCaJVLAnVoRX2UdWJldS4=
+</properties>
+		<properties node_id="50" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x1b\x00\x00\x00\xca\x00\x00\x04P\x00\x00\x01\xfb\x00\x00\x03\x1b\x00\x00\x00\xec\x00\x00\x04P\x00\x00\x01\xfb\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x1b\x00\x00\x00\xec\x00\x00\x04P\x00\x00\x01\xfb', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
